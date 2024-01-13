@@ -1,6 +1,6 @@
 // https://github.com/node-config/node-config/issues/578
 
-var apm = require('elastic-apm-node').start({
+require('elastic-apm-node').start({
   serviceName: 'evershop',
   serverUrl: 'https://apm.rhel.ontolo.wongfamily.homes',
   environment: 'prod'
