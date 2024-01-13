@@ -29,5 +29,4 @@ jobs:
         push: true
         image: digi04123/evershop
         tags: digi04123/evershop:latest, digi04123/evershop:${{ github.sha }}
-        target: runtime
         
